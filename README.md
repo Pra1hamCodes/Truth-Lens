@@ -3,7 +3,7 @@
 A full-stack deepfake detection platform. Users sign up, share short videos to a community feed, and run AI-powered analysis that flags each post as **REAL** or **DEEPFAKE** with a per-frame confidence breakdown.
 
 [Demo video](https://github.com/user-attachments/assets/07f6b195-a1d8-4446-b3c9-f92e3d8131a7)
-
+Research Paper Link = https://ieeexplore.ieee.org/document/11467317
 ---
 
 ## Table of contents

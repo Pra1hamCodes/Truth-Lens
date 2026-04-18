@@ -1,4 +1,4 @@
-# DeepShield
+# TruthLense
 
 A full-stack deepfake detection platform. Users sign up, share short videos to a community feed, and run AI-powered analysis that flags each post as **REAL** or **DEEPFAKE** with a per-frame confidence breakdown.
 
@@ -209,8 +209,8 @@ IPD-main/
 
 ```bash
 git lfs install
-git clone https://github.com/Pra1hamCodes/DeepShield.git
-cd DeepShield
+git clone https://github.com/Pra1hamCodes/TruthLense.git
+cd TruthLense
 ```
 
 ### Backend (Express)
@@ -264,7 +264,7 @@ The default `.env.example` already points the frontend at `localhost:3000` (Expr
 
 See [`DEPLOY.md`](DEPLOY.md) for the end-to-end Render + Vercel walkthrough. In short:
 
-- **Render** reads `render.yaml` and provisions three services: `deepshield-backend` (Node), `deepshield-flask-cnn` (Python), `deepshield-flask-vit` (Python). All three respect `$PORT`. The `.pt` model is pulled via Git LFS during the build.
+- **Render** reads `render.yaml` and provisions three services: `truthlense-backend` (Node), `truthlense-flask-cnn` (Python), `truthlense-flask-vit` (Python). All three respect `$PORT`. The `.pt` model is pulled via Git LFS during the build.
 - **Vercel** hosts the frontend. Set `VITE_API_BASE_URL` and the two `VITE_FLASK_*_URL` vars to your Render URLs.
 - After both sides are up, paste the Vercel URL into Render's `CORS_ORIGINS` and `FLASK_CORS_ORIGINS` so cross-origin requests aren't blocked.
 

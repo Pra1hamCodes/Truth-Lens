@@ -16,7 +16,7 @@ export default function OurApproach() {
         <header className="mb-10">
           <h1 className="text-4xl md:text-5xl font-black text-[#151616] mb-4">Our Approach</h1>
           <p className="text-lg text-[#151616]/75 max-w-4xl leading-relaxed">
-            DeepShield uses a layered detection pipeline that combines spatial analysis, temporal analysis,
+            TruthLense uses a layered detection pipeline that combines spatial analysis, temporal analysis,
             and calibrated fusion. The goal is to explain how the system works in a clear way, without adding
             extra dashboard visuals here.
           </p>

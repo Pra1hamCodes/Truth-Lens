@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: deepshield-backend
+    name: truthlense-backend
     runtime: node
     rootDir: backend
     plan: free
@@ -27,7 +27,7 @@ services:
         value: 120000
 
   - type: web
-    name: deepshield-flask-cnn
+    name: truthlense-flask-cnn
     runtime: python
     rootDir: backend/flask_server
     plan: free
@@ -42,7 +42,7 @@ services:
         value: "0"
 
   - type: web
-    name: deepshield-flask-vit
+    name: truthlense-flask-vit
     runtime: python
     rootDir: backend/flask_server_2
     plan: free

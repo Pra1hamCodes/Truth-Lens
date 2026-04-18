@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: truthlense-backend
+    name: truth-lens-backend
     runtime: node
     rootDir: backend
     plan: free
@@ -27,7 +27,7 @@ services:
         value: 120000
 
   - type: web
-    name: truthlense-flask-cnn
+    name: truth-lens-flask-cnn
     runtime: python
     rootDir: backend/flask_server
     plan: free
@@ -42,7 +42,7 @@ services:
         value: "0"
 
   - type: web
-    name: truthlense-flask-vit
+    name: truth-lens-flask-vit
     runtime: python
     rootDir: backend/flask_server_2
     plan: free

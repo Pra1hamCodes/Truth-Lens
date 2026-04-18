@@ -103,7 +103,7 @@ const Footer = () => {
                 border-2 border-[#151616] shadow-[4px_4px_0px_0px_#151616]">
                 <Bot className="w-7 h-7 text-[#151616]" />
               </div>
-              <h2 className="text-3xl font-bold">TruthLense</h2>
+              <h2 className="text-3xl font-bold">Truth Lens</h2>
             </motion.div>
             <p className="text-[#151616]/70 max-w-md">
               Empowering truth in the digital age. Our AI-powered platform helps you detect and combat deepfakes, ensuring authenticity in online content.
@@ -153,7 +153,7 @@ const Footer = () => {
           className="border-t-2 border-[#151616]/10 py-6 flex flex-col md:flex-row 
           justify-between items-center gap-4">
           <div className="flex items-center gap-2 text-sm text-[#151616]/70">
-            <span>© 2024 TruthLense. All rights reserved.</span>
+            <span>© 2024 Truth Lens. All rights reserved.</span>
             <span className="flex items-center gap-1">
               Made with <Heart className="w-4 h-4 text-[#D6F32F]" /> by Shubham
             </span>
